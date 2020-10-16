@@ -29,6 +29,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { WelcomeComponent } from './welcome/welcome.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { PictureManagerComponent } from './products/picture-manager/picture-manager.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     // TodoItemComponent,
     // TabsComponent,
     NavigationComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    PictureManagerComponent
   ],
   imports: [
     BrowserModule,
